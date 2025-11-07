@@ -1,0 +1,5 @@
+# lister les fichier qui ne doivent pas se retrouver sur mon repo git
+
+node_modules/
+
+.env

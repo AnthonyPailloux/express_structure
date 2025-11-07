@@ -2,8 +2,11 @@
 
 let productId = 3;
 const products = [
-    {id: 1, name: 'stylo', price: 2},
-    {id: 2, name: 'feutre', price: 3}
+    {id: 1, name: 'Stylo', price: 2},
+    {id: 2, name: 'Feutre', price: 3},
+    {id: 3, name: 'Fahier', price: 4},
+    {id: 4, name: 'Trousse', price: 4.50},
+    {id: 5, name: 'Règle', price: 2.50}
 ];
 
 // logique d'affichage d'un produit
@@ -67,9 +70,6 @@ exports.getProductById = (req, res) => {
             message:'produit creer',
             data: newProduct
         })
-        
-        
-        
         // console.log('test de la route de creation de produit');
         
     }
